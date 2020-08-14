@@ -16,17 +16,13 @@ to your `app` folder. The affected files can be copied or merged from
 
 Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
-    ```bash
-    database.default.hostname = localhost
-    
-    database.default.database = ci4starter
-    
-    database.default.username = root
-    
-    database.default.password = root
-    
-    database.default.DBDriver = MySQLi
-    ```
+```bash
+- database.default.hostname = localhost //Hostname
+- database.default.database = ci4 //Database
+- database.default.username = root //Username
+- database.default.password = root  //Password
+- database.default.DBDriver = MySQLi
+```
 ## Server Requirements
 
 PHP version 7.2 or higher is required, with the following extensions insalled: 
