@@ -16,7 +16,17 @@ to your `app` folder. The affected files can be copied or merged from
 
 Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
-
+    ```bash
+    database.default.hostname = localhost
+    
+    database.default.database = ci4starter
+    
+    database.default.username = root
+    
+    database.default.password = root
+    
+    database.default.DBDriver = MySQLi
+    ```
 ## Server Requirements
 
 PHP version 7.2 or higher is required, with the following extensions insalled: 
@@ -85,4 +95,8 @@ File Location [Project-Folder]/vendor/almasaeed2010/adminlte
     ```
     ```bash
     composer update
+    ```
+- **Copy Dist and Plugin**
+    ```bash
+    Copy Dist and Plugin From vendor/almasaeed2010/adminlte To [Project-Folder]/public 
     ```
