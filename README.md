@@ -17,10 +17,15 @@ to your `app` folder. The affected files can be copied or merged from
 Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
 ```bash
-- database.default.hostname = localhost //Hostname
-- database.default.database = ci4 //Database
-- database.default.username = root //Username
-- database.default.password = root  //Password
+//Hostname
+- database.default.hostname = localhost 
+//Database
+- database.default.database = ci4
+//Username
+- database.default.username = root
+//Password
+- database.default.password = root
+//SQL Type
 - database.default.DBDriver = MySQLi
 ```
 ## Server Requirements
