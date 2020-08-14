@@ -42,7 +42,7 @@ File Location [Project-Folder]/app/ThirdParty/myth-auth
 - **Via Composer**
 
     ```bash
-    git clone https://github.com/lonnieezell/myth-auth.git app/ThirdParty
+    git clone https://github.com/lonnieezell/myth-auth.git app/ThirdParty/myth-auth
     ```
     ```bash
     composer update
