@@ -17,6 +17,8 @@ to your `app` folder. The affected files can be copied or merged from
 Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
 ```bash
+//base WEB URL
+app.baseURL = 'http://localhost:8080/'
 //Hostname
 - database.default.hostname = localhost 
 //Database
