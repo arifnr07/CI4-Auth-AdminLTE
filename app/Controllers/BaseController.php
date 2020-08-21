@@ -42,9 +42,5 @@ class BaseController extends Controller
 		//--------------------------------------------------------------------
 		// E.g.:
 		// $this->session = \Config\Services::session();
-		echo view('admin_lte/header');
-		echo view('admin_lte/navbar');
-		echo view('admin_lte/sidebar');
-		echo view('admin_lte/footer');
 	}
 }

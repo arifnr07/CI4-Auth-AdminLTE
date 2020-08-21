@@ -6,11 +6,10 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		/*
 
-		*/
-		echo view('welcome_message');
-		//echo view('admin_lte/footer');
+		$data['title'] = 'Home';
+
+		echo view('Home', $data);
 	}
 
 	//--------------------------------------------------------------------
