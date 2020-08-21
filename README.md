@@ -16,7 +16,20 @@ to your `app` folder. The affected files can be copied or merged from
 
 Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
-
+```bash
+//base WEB URL
+app.baseURL = 'http://localhost:8080/'
+//Hostname
+- database.default.hostname = localhost 
+//Database
+- database.default.database = ci4
+//Username
+- database.default.username = root
+//Password
+- database.default.password = root
+//SQL Type
+- database.default.DBDriver = MySQLi
+```
 ## Server Requirements
 
 PHP version 7.2 or higher is required, with the following extensions insalled: 
@@ -42,7 +55,7 @@ File Location [Project-Folder]/app/ThirdParty/myth-auth
 - **Via Composer**
 
     ```bash
-    git clone https://github.com/lonnieezell/myth-auth.git app/ThirdParty
+    git clone https://github.com/lonnieezell/myth-auth.git app/ThirdParty/myth-auth
     ```
     ```bash
     composer update
@@ -85,4 +98,8 @@ File Location [Project-Folder]/vendor/almasaeed2010/adminlte
     ```
     ```bash
     composer update
+    ```
+- **Copy Dist and Plugin**
+    ```bash
+    Copy Dist and Plugin From vendor/almasaeed2010/adminlte To [Project-Folder]/public 
     ```
