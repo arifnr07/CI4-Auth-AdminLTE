@@ -1,4 +1,41 @@
 <style type="text/css">
+    .card {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+
+    .sidebar {
+        padding-left: 0rem
+    }
+
+    .brand-link {
+        padding-left: 0px
+    }
+
+    .brand-link.text-sm .brand-image,
+    .text-sm .brand-link .brand-image {
+        margin-left: .45rem
+    }
+
+    .user-panel .image {
+        padding-left: .3rem
+    }
+
+    .sidebar-mini.sidebar-collapse .main-sidebar,
+    .sidebar-mini.sidebar-collapse .main-sidebar::before {
+        width: 3rem
+    }
+
+    .sidebar-mini.sidebar-collapse .content-wrapper,
+    .sidebar-mini.sidebar-collapse .main-footer,
+    .sidebar-mini.sidebar-collapse .main-header {
+        margin-left: 3rem !important
+    }
+
+    .text-sm .nav-link {
+        padding: .4rem .3rem;
+    }
+
     .half-rule {
         margin-left: 0;
         text-align: center;
